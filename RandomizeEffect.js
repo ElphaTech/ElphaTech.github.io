@@ -2,7 +2,7 @@ const letters = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!
 
 let interval = null;
 
-document.querySelectorAll(".randomizedisable").forEach(element => {
+document.querySelectorAll(".randomize").forEach(element => {
   
   element.onmouseover = event => {  
     let iteration = 0;
@@ -13,7 +13,7 @@ document.querySelectorAll(".randomizedisable").forEach(element => {
       event.target.innerText = event.target.innerText
         .split("")
         .map((letter, index) => {
-          if(index < iteration) {
+          if(index < iteration-9) {
             return event.target.dataset.value[index];
           }
         
@@ -21,11 +21,11 @@ document.querySelectorAll(".randomizedisable").forEach(element => {
         })
         .join("");
       
-      if(iteration >= event.target.dataset.value.length){ 
+      if(iteration-9 >= event.target.dataset.value.length){ 
         clearInterval(interval);
       }
       
-      iteration += 1 / 3;
+      iteration += 1 / 2  ;
     }, 30);
   }
 });
