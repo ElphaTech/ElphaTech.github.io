@@ -6,13 +6,26 @@ body {
     margin-bottom: 1000px;
 }
 
+.button > a{
+    color: white;
+    padding: 6.5px 9px;
+    border-radius: 10%;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.button > a:hover {
+    background-color: white;
+    color: #363636;
+}
+
 #page {
     margin: 0px 30px;
     padding-top: 80px;
 }
 
 #menu {
-    background-color: chartreuse;
+    background-color: #363636;
     position: fixed;
     z-index: 99999999;
     width: 100%;
@@ -60,6 +73,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     float: left;
+    justify-content: center;
 }
 
 .site {
