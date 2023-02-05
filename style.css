@@ -1,0 +1,113 @@
+body {
+    background-color: #161616;
+    color: white;
+    font-family: 'Righteous', cursive;
+    margin: 0px;
+    margin-bottom: 1000px;
+}
+
+#page {
+    margin: 0px 30px;
+    padding-top: 80px;
+}
+
+#menu {
+    background-color: chartreuse;
+    position: fixed;
+    z-index: 99999999;
+    width: 100%;
+}
+
+#inner-menu {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.menu-logo-outer {
+    width: 40px;
+}
+.menu-logo {
+    border-radius: 50%;
+    width: 40px;
+}
+
+.button-outer {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-h1 {
+    font-size: 64px;
+    text-align: center;
+    margin: 0px;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 125px;
+}
+
+.logo-div {
+    width: 250px;
+    float: left;
+}
+
+.sites-info {
+    border: 1px solid rgb(91, 184, 60)
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+
+.site {
+    border: 1px solid rgb(206, 88, 88);
+    flex-basis: 40%;
+    height: 250px;
+    flex-wrap: wrap;
+    float: left;
+}
+
+.text-div {
+    height: 100%;
+    text-align: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.logo-div, .text-div {
+    border: 1px solid white;
+    float: left;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-l2 {
+    flex-basis: 100%;
+}
+
+.text-l1, .text-l2 {
+    /* border: 1px solid orange; */
+    display: flex;
+    justify-content: center;
+    height: 20%;
+}
+
+.text-shrink {
+    width: 60%;
+}

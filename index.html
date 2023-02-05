@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            @import "style.css";
+        </style>
+        <script src="RandomizeEffect.js" defer></script>
+        <script src="YouTubeSubCount.js" defer></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+        <title>AlphaTech</title>
+    </head>
+
+    <body>
+        <div id="menu">
+            <div id="inner-menu">
+                <div class="menu-logo-outer">
+                    <img src="ATLogo.png" class="menu-logo">
+                </div>
+                <div class="button-outer">
+                    <div class="button">
+                        <a href="#sites-sect">Sites</a>
+                    </div>
+                </div>
+                <div class="menu-logo-outer"></div>
+            </div>
+        </div>
+        <!-- main page -->
+        <div id="page">
+            <!-- sites -->
+            <h1 class="big-h1" id="sites-sect">Sites</h1>
+
+            <div id="sites-info">
+                <!-- youtube -->
+                <div class="youtube site">
+                    <!-- YT Logo -->
+                    <div class="logo-div">
+                        <a href="https://www.youtube.com/@alphatech_?sub_confirmation=1"><img src="ytLogo.png" class="logo"></a>
+                    </div>
+                    <!-- YT Text -->
+                    <div class="text-div">
+                        <div class="text-l1">
+                            <h1 data-value="YouTube Channel:" class="randomize">YouTube Channel:</h1>
+                        </div>
+                        <div class="text-l2">
+                            <h2 data-value="@AlphaTech_" class="randomize">@AlphaTech_</h2>
+                        </div>
+                        <div class="text-l2">
+                            <div class="text-shrink">
+                                <p>My YouTube channel has <span id="subCount"></span> subscribers and <span id="videoCount"></span> videos about programming and games with over <span id="viewCount"></span> views.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- github -->
+                <div class="github site">
+                    <!-- GitHub Logo -->
+                    <div class="logo-div">
+                        <a href="https://github.com/ElphaTech"><img src="github-mark-white.png" class="logo"></a>
+                    </div>
+                    <!-- YT Text -->
+                    <div class="text-div">
+                        <div class="text-l1">
+                            <h1 data-value="GitHub Profile:" class="randomize">GitHub Profile:</h1>
+                        </div>
+                        <div class="text-l2">
+                            <h2 data-value="ElphaTech/AlphaTech_" class="randomize">ElphaTech/AlphaTech_</h2>
+                        </div>
+                        <div class="text-l2">
+                            <div class="text-shrink">
+                                <p>I have lots of my Python projects on GitHub.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
